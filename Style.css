@@ -1,0 +1,96 @@
+body{
+    background-color: #A4C3B2;
+    margin: 0;
+    padding:0;
+}
+
+.container{
+    background-color: #CCE3DE;
+    width:500px;
+    height:620px;
+    margin-left: 420px;
+    margin-top: 10px;
+    border-radius: 20px;
+    padding: 10px;
+   
+}
+
+.container h1{
+    margin-left: 10px;
+    color:#4D5061;
+}
+
+.container #taskWrite{
+    background-color:#0000;
+    
+    border: none;
+    border-bottom: 2px solid #4D5061;
+    height:25px;
+    width:250px;
+    margin-left: 50px;
+
+}
+input:focus{
+    background-color: none;
+    outline: none;
+}
+
+input[type= button]{
+    background-color:#CCE3DE;
+    border: none;
+    box-shadow: 2px 2px 3px  rgb(49, 46, 46);
+    margin-left: 30px;
+    width:90px;
+}
+
+#ajtBtn:active {
+    background-color: #CCE3DE;
+    box-shadow: 3px 3px 3px 3px #4D5061;
+    transform: translateY(2px);
+}
+
+
+.inProgress{
+
+    height:150px;
+    display:block;
+}
+.inProgress span {
+    display: flex;
+}
+.inProgress span {
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+    font-size: 18px;
+    color:rgb(53, 50, 50);
+    font-weight: bolder;
+    margin-left: 20px;
+}
+input[type=checkbox]{
+    margin-right: 10px;
+}
+.Completed {
+ 
+    height:150px;
+    display: block;
+}
+.Completed span{
+display:flex;
+font-family: 'Edu VIC WA NT Beginner', cursive;
+    font-size: 18px;
+    color:rgb(53, 50, 50);
+    font-weight: bolder;
+    margin-left: 20px;
+}
+
+#reset{
+    width:200px;
+    height:25px;
+    background-color: #CCE3DE;
+    border: 1px solid #4D5061;
+    box-shadow: none;
+    border-radius: 10px;
+    margin-left: 150px;
+    cursor: pointer;
+}
+
+
